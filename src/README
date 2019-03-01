@@ -1,0 +1,23 @@
+** por compatibilidad se omiten tildes **
+
+Este codigo forma parte del trabajo practico final de la materia Organizacion del Computador II de la FCEN.
+
+Los pasos para compilar son:
+
+1. Ejecutar 'make' desde una consola en la carpeta actual.
+
+    $ make
+
+2. Ejecutar 'bochs' desde una consola en la carpeta actual.
+
+    $ bochs -q
+
+    o
+
+    $ make run
+
+3. ¡Disfrutar de su kernel corriendo!
+
+Configuracion de bochs (2.6.9) recomendada:
+
+./configure --enable-x86-64 --enable-debugger --enable-disasm --disable-docbook --enable-readline LDFLAGS='-pthread' --prefix=/home/user/bochs/
